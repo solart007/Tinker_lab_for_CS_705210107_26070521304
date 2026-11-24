@@ -19,5 +19,13 @@ Repository containing lab assignments, practicals, reports, and hardware/simulat
 - **Practical-13** — Lab practical files and documentation
 - **Practical-14** — Lab practical files and documentation
 
+## Key Skills & Learning Outcomes
+
+- **Web Development Skills:** Building responsive websites and web applications using HTML and CSS.
+- **Digital Productivity & Data Handling:** Documentation, reporting, and data analysis using Microsoft Word and Excel.
+- **Hardware Prototyping & Arduino:** Designing, building, and testing electronic circuits, embedded systems, and sensor integrations.
+- **Internet of Things (IoT) & Industry 4.0:** Combining hardware and software to create connected smart solutions and automation systems.
+- **Problem-Solving & Rapid Prototyping:** Iterative design thinking, debugging, and converting concepts into functional prototypes through collaborative lab projects.
+
 ## Notes
 - Each practical folder contains its respective source files, output deliverables, and `README.md` summarizing the objective and results.

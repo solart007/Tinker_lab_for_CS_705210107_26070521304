@@ -7,4 +7,5 @@ An Arduino Uno circuit using `LiquidCrystal_I2C` (`lcd_1`) to display `"Purva Ak
 ![Circuit Diagram](image.png)
 
 ## Tinkercad Simulation
-[View Circuit on Tinkercad](8B_TINKERCAD_LINK)
+[View Circuit on Tinkercad](https://www.tinkercad.com/things/jwUeRNGk8qh-prac8-b)
+

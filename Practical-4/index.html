@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>tiny css</title>
+<style>
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial,
+sans-serif;
+}
+body {
+background-color: #f7deda;
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-top: 40px;
+color: #333;
+}
+/* Top Pill Banner */
+.top-banner {
+background-color: #79979d;
+color: #ffffff;
+width: 90%;
+max-width: 800px;
+padding: 16px 24px;
+border-radius: 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 4px;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+.banner-title {
+display: flex;
+align-items: center; gap: 8px;
+font-size: 24px;
+font-weight: 600;
+}
+.banner-subtitle {
+font-size: 14px;
+opacity: 0.85;
+}
+/* Primary Feature Cards Grid */
+.cards-container {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 16px;
+margin-top: 30px;
+width: 90%;
+max-width: 850px;
+}
+.card {
+background-color: #faede9;
+border-radius: 20px;
+padding: 24px;
+width: 170px;
+height: 140px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+}
+.card-icon {
+font-size: 22px;
+margin-bottom: 8px;
+}
+.card-title {
+font-size: 18px;
+font-weight: 700;
+color: #2c2c2c; }
+.card-subtitle {
+font-size: 13px;
+color: #666;
+margin-top: 2px;
+}
+/* Bottom Tags */
+.tags-container {
+display: flex;
+gap: 12px;
+margin-top: 35px;
+}
+.tag {
+background-color: #d6cfdc;
+color: #4a4a5a;
+padding: 6px 14px;
+border-radius: 12px;
+font-size: 13px;
+display: flex;
+align-items: center;
+gap: 6px;
+font-weight: 500;
+}
+/* Footer Note */
+.footer-text {
+margin-top: 40px;
+font-size: 13px;
+color: #6a7080;
+display: flex;
+align-items: center;
+gap: 6px;
+}
+.checkbox-icon {
+width: 12px;
+height: 12px;
+border: 2px solid #5a7090;
+background-color: #6b82a6;
+border-radius: 2px;
+} </style>
+</head>
+<body>
+<!-- Top Banner -->
+<div class="top-banner">
+<div class="banner-title">
+<span style="font-size: 18px;">🔹</span> tiny
+</div>
+<div class="banner-subtitle">
+inline · internal · flex · media
+</div>
+</div>
+<!-- Main Cards -->
+<div class="cards-container">
+<div class="card">
+<div class="card-icon" style="color: #d9534f;">📌</div>
+<div class="card-title">inline</div>
+<div class="card-subtitle">style attr</div>
+</div>
+<div class="card">
+<div class="card-icon" style="color: #666;">Δ</div>
+<div class="card-title">internal</div>
+<div class="card-subtitle">&lt;style&gt;</div>
+</div>
+<div class="card">
+<div class="card-icon" style="color: #666;">🔗</div>
+<div class="card-title">external</div>
+<div class="card-subtitle">in head</div>
+</div>
+<div class="card">
+<div class="card-icon" style="color: #4b6cb7;">🌀</div>
+<div class="card-title">flex</div>
+<div class="card-subtitle">wrap + gap</div>
+</div>
+</div>
+<!-- Small Tags -->
+<div class="tags-container">
+<div class="tag"> <span>📊</span> resize
+</div>
+<div class="tag">
+<span>🏷️</span> media
+</div>
+</div>
+<!-- Footer -->
+<div class="footer-text">
+<span class="checkbox-icon"></span>
+responsive · all css
+</div>
+</body>
+</html>
+
+Prac4
